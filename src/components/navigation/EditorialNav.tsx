@@ -5,9 +5,10 @@ import { useState } from "react";
 
 const navLinks = [
   { label: "Properties", href: "/properties" },
-  { label: "Advisory", href: "#advisory" },
-  { label: "Verification", href: "#verification" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/about" },
+  { label: "Verification", href: "/verification" },
+  { label: "Consultation", href: "/consultation" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function EditorialNav() {

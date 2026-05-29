@@ -3,7 +3,9 @@ import Link from "next/link";
 const links = [
   { label: "Overview", href: "/admin" },
   { label: "Properties", href: "/admin/properties" },
-  { label: "Inquiries", href: "/admin/inquiries" },
+  { label: "Property Leads", href: "/admin/inquiries" },
+  { label: "Consultations", href: "/admin/leads/consultations" },
+  { label: "Contact Requests", href: "/admin/leads/contact" },
   { label: "Verification", href: "/admin/verification" },
   { label: "Settings", href: "/admin/settings" },
 ];
